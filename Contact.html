@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <section>
+                <img class="logo" src="img/explore-amsterdam-logo.png" alt="Explore Amsterdam Logo" title="Explore Amsterdam Logo">
+            </section>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tourist-spots.html">Tourist Spots</a></li>
+                <li><a href="transportation.html">Transport</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <section class="form-area">
+                <h2>Get in Touch</h2>
+                <!-- Contact Form -->
+                <form id="form-field" action="#" method="post">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <label>
+                            <input type="radio" name="title" value="Mr"> Mr
+                        </label>
+                        <label>
+                            <input type="radio" name="title" value="Mrs"> Mrs
+                        </label>
+                        <label>
+                            <input type="radio" name="title" value="Miss"> Miss
+                        </label>
+                    </fieldset>
+                    
+                    <label for="first-name">First Name*: </label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    
+                    <label for="last-name">Last Name*: </label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" name="age">
+                    
+                    <label for="email">Email*: </label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone: </label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="message">Message*: </label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                    <p style="margin-top: 10px;">* - Mandatory Field</p>
+                </form>
+
+                <!-- Additional Information -->
+                <aside>
+                    <h2>Additional Information</h2>
+                    <p>
+                        If you have any questions, do not hesitate to ask. You can write them down here in the message box.
+                        Any idea which is going to help us make our service better, we will be happy to hear from you!
+                    </p>
+                    <p>Leave a message here, and we will contact you later.</p>
+                </aside>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <h2><em>Explore Amsterdam</em></h2>
+            <p><em>Your guide to the best activities in Amsterdam.</em></p>
+        </article>
+        <article>
+            <p><em>&copy; Antor 2024. All rights reserved.</em></p>
+        </article>
+    </footer>
+</body>
+</html>
